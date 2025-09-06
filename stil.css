@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+width: 100%;
+background-color: #010225 ;
+}
+
+
+.container {
+  width: 100%;
+  margin:auto;
+  background-color: #0C0D2E;
+}
+.navbar {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 40px;
+  margin: auto;
+}
+
+.Polar_logo {
+position: absolute;
+background: url(img/IMAGE.png);
+
+}
+.nav_links{
+  display: flex;
+  gap: 25px;
+  margin: auto;
+  padding: 10px 10px; 
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.active{
+  text-decoration: none;
+  color: white;
+}
+
+.active:hover{
+color: #189CE8;
+}
+
+
+.hero {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 50px;
+  margin: auto;
+  background-color: #010225 ;
+}
+
+.phone-mockup {
+  position: relative;
+  width: 300px;
+  transform: rotate(-15deg);
+  margin: 0 auto;
+}
+
+.phone-mockup img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero_title {
+  font-size: 46px;
+  margin: 20px 0;
+  line-height: 1.2;
+  color: white;
+  width: 585px;
+}
+
+.hero_text{
+  color: #af1d5a;
+}
+
+.hero_text .description {
+  margin: 28px 0;
+  color: #ffffff;
+  line-height: 1.6;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.description{
+  width: 617px;
+  height: 60px;
+}
+.ice_cream_img {
+  width: 600px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin: auto;
+  gap: 20px;
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+ .service {
+  text-align: center;
+  background-color: #fff;
+}
+
+.service img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+} 
+
+.service p {
+  font-size: 14px;
+  color: #666;
+}
+ 
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1400px;
+  margin: 0 auto;
+  height: 490px;
+  margin: auto;
+  padding: 50px;
+  font-family: sans-serif;
+  background-color: #F8EDF0;
+}
+
+.feature_text {
+  margin: auto;
+}
+
+.feature_title {
+  font-size: 40px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+
+.box_title {
+  padding: 90px 10px 30px;
+  width: 300px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  margin: auto;
+}
+
+.tasks{
+  display: flex;
+   justify-content: center;
+  /* font-weight: 700; */
+  gap: 0px;
+  list-style: none;
+  padding: 50px;
+  font-size: 19px;
+  align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+  margin: auto;
+}
+
+.link_main {
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  text-decoration: none;
+  width: 280px;
+  margin: auto;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  color: #666;
+  font-weight: 700;
+  justify-content: center;
+}
+.link:hover {
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.ice_cream_img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+.product_title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.product_text {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 20px;
+  color: #555;
+}
+
+.btn1 {
+width: 165px;
+height: 49px;
+color: white;
+background: #D64374;
+border-radius: 5px;
+font-size: 15px;
+margin-top: 12px;
+}
+
+.new_price {
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+color: #000000;
+}
+
+.limon__img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+.Sweetcorn_img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
